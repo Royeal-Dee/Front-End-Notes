@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #ff91af;
+  height: 60px;
+  color: slategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.navbar .nav-links .nav-link a {
+  margin: 10px;
+}
+
+/*page content*/
+.main-content-container .image-wrapper {
+  width: 100%;
+}
+
+.main-content-container .image-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.page-content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 15px;
+}
+
+/*footer*/
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container .nav-links {
+  margin-bottom: 10px;
+}
